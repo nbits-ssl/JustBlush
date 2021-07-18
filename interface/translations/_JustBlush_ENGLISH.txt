@@ -1,0 +1,44 @@
+$JBlushConfig	Config
+$JBlushLevel	Blush Level/Race
+
+
+$JBlushSystem	System
+$JBlushEnable	Mod Enabled
+$JBlushEnableInfo	Enable/disable mods. \nUninstallation should be done after coc to QASmoke or similar, and then disabled.
+
+$JBlushDebug	Debug
+$JBlushEnableTestMode	Test-mode Enabled
+$JBlushEnableTestModeInfo	Apply "Base Alpha" to all applicable characters while enabled
+$JBlushDebugLogFlag	Output debug log
+
+$JBlushProfile	Profile
+$JBlushConfigSave	Save
+$JBlushConfigSaveInfo	Export to data/skse/plugins/JustBlushConfig.json
+$JBlushConfigLoad	Load
+$JBlushConfigLoadInfo	Import from data/skse/plugins/JustBlushConfig.json
+
+$JBlushDoIt	Do It!
+$JBlushDone	Done!
+
+
+$JBlushLevelSystem	System
+$JBlushWeakSkinAdjust	Weak SkinColor Adjust
+$JBlushWeakSkinAdjustInfo	Weaken the reflectance reduction operation for dark skin tones to half the normal value.
+
+$JBlushLevelConfig	Blush Level
+
+$JBlushBaseAlphaMale	M: Base Alpha
+$JBlushSexAlphaMale	M: Sex Alpha(Static)
+$JBlushNudeAlphaMale	M: Nude Alpha(Addition)
+
+$JBlushBaseAlphaFemale	F: Base alpha
+$JBlushSexAlphaFemale	F: Sex Alpha(Static)
+$JBlushNudeAlphaFemale	F: Nude Alpha(Addition)
+
+$JBlushBaseAlphaInfo	The maximum percentage of transparency at which blushes will be rendered; 100% will render the texture as-is, while 50% will render the blush as 50% transparent. It is also multiplied by the sexual desire value and the reflectivity of sex and nudity.
+$JBlushSexAlphaInfo	Reflects blush during sex (texture transparency). Regardless of the sex drive value, it is fixed.
+$JBlushNudeAlphaInfo	Reflects blush when naked (texture transparency). This value is added to the sex drive value to reflect it.
+
+$JBlushDisableRace	Disabled Races
+$JBlushDisbleKhajiit	Khajiit
+$JBlushDisbleArgonian	Argonian

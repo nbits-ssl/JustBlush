@@ -1,0 +1,44 @@
+$JBlushConfig	一般設定
+$JBlushLevel	赤面レベル/種族
+
+
+$JBlushSystem	システム
+$JBlushEnable	Mod有効
+$JBlushEnableInfo	Modの有効無効を切り替える。\nアンインストールはQASmokeなどにcoc後、無効化して行うこと。
+
+$JBlushDebug	デバッグ
+$JBlushEnableTestMode	テストモード有効
+$JBlushEnableTestModeInfo	有効にしている間、全ての適用キャラクターに対し「基本的な反映度」を反映する
+$JBlushDebugLogFlag	デバッグログ出力
+
+$JBlushProfile	プロファイル
+$JBlushConfigSave	セーブ
+$JBlushConfigSaveInfo	data/skse/plugins/JustBlushConfig.json に出力
+$JBlushConfigLoad	ロード
+$JBlushConfigLoadInfo	data/skse/plugins/JustBlushConfig.json から読み込み
+
+$JBlushDoIt	実行
+$JBlushDone	完了
+
+
+$JBlushLevelSystem	システム
+$JBlushWeakSkinAdjust	スキンカラー対応を弱める
+$JBlushWeakSkinAdjustInfo	黒い肌色に対して行われている反映度の減少操作を通常の半分に弱める
+
+$JBlushLevelConfig	赤面レベル設定
+
+$JBlushBaseAlphaMale	男: 基本的な反映度
+$JBlushSexAlphaMale	男: セックス時の反映度(固定)
+$JBlushNudeAlphaMale	男: 裸時の反映度(加算)
+
+$JBlushBaseAlphaFemale	女: 基本的な反映度
+$JBlushSexAlphaFemale	女: セックス時の反映度(固定)
+$JBlushNudeAlphaFemale	女: 裸時の反映度(加算)
+
+$JBlushBaseAlphaInfo	赤面を描画する際の最大の透過割合。100%の場合はテクスチャそのまま、50%の場合は50%透過で赤面が描画される。そのまま性欲値、セックス時や裸の反映度にも乗算される。
+$JBlushSexAlphaInfo	セックス時の赤面反映度(テクスチャ透過率)。\n性欲値の値にかかわらず、固定で反映する。
+$JBlushNudeAlphaInfo	裸時の赤面反映度(テクスチャ透過率)。\n性欲値の値にこの値を加算して反映する。
+
+$JBlushDisableRace	有効化しない種族
+$JBlushDisbleKhajiit	カジート
+$JBlushDisbleArgonian	アルゴニアン
