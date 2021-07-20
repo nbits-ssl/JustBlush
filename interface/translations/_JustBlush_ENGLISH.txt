@@ -4,7 +4,7 @@ $JBlushLevel	Blush Level/Race
 
 $JBlushSystem	System
 $JBlushEnable	Mod Enabled
-$JBlushEnableInfo	Enable/disable mods. \nUninstallation should be done after coc to QASmoke or similar, and then disabled.
+$JBlushEnableInfo	Enable/disable mods. \nUninstallation should be done after disabling it and moving the cell across the load several times.
 
 $JBlushDebug	Debug
 $JBlushEnableTestMode	Test-mode Enabled

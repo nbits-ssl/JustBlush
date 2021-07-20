@@ -240,3 +240,39 @@ Function loadConfig(string configFile)
 	disableKhajiit = JsonUtil.GetIntValue(configFile, "disableKhajiit")
 	disableArgonian = JsonUtil.GetIntValue(configFile, "disableArgonian")
 EndFunction
+
+float Function GetBaseAlpha(bool isfemale)
+	float alpha
+	
+	if (isfemale)
+		alpha = baseAlphaFemale
+	else
+		alpha = baseAlphaMale
+	endif
+	
+	return alpha * 0.01
+EndFunction
+
+float Function GetSexAlpha(bool isfemale)
+	float alpha
+	
+	if (isfemale)
+		alpha = sexAlphaFemale
+	else
+		alpha = sexAlphaMale
+	endif
+
+	return alpha * 0.01
+EndFunction
+
+float Function GetNudeAlpha(bool isfemale)
+	float alpha
+	
+	if (isfemale)
+		alpha = nudeAlphaFemale
+	else
+		alpha = nudeAlphaMale
+	endif
+
+	return alpha * 0.01
+EndFunction

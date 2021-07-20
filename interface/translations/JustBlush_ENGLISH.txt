@@ -4,7 +4,7 @@ $JBlushLevel	赤面レベル/種族
 
 $JBlushSystem	システム
 $JBlushEnable	Mod有効
-$JBlushEnableInfo	Modの有効無効を切り替える。\nアンインストールはQASmokeなどにcoc後、無効化して行うこと。
+$JBlushEnableInfo	Modの有効無効を切り替える。\nアンインストールは無効化後にロードを挟むセル移動を数回してから行うこと。
 
 $JBlushDebug	デバッグ
 $JBlushEnableTestMode	テストモード有効
